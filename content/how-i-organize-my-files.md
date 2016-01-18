@@ -1,12 +1,25 @@
-Title: How I Organize My Files
+Title: Directory Structure
 Date: 2016-01-16 13:32
-Category: Review
+Category: Organization
 
+The Following is the Directory structure I use for organizing my life
+
+It's a work in progress and continues to be refined, but I'm happy with it for now
 
 ```
 inbox
+|
++--unorganized-thing
++--folder-of-stuff-to-sort
+   |
+   + thing1.ext
+   + thing2.ext
 
 notes
+|
++--inbox.md
++--todo.txt
++--done.txt
 
 projects
 |
@@ -35,7 +48,6 @@ media
 |      +--category
 |          |
 |          +--book
-|          |
 |          +--subcategory
 |             |
 |             +-- book
