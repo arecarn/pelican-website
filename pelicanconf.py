@@ -21,6 +21,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
+INDEX_SAVE_AS = 'pages/blog.html'
+
+MENUITEMS = (
+    ('Blog', '/pages/blog.html'),
+    ('About', '/pages/about.html'),
+    )
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
