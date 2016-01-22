@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Ryan Carney'
-SITENAME = u'nerd junk'
+SITENAME = u'Nerd Junk'
 SITEURL = ''
 
 PATH = 'content'
@@ -12,7 +12,7 @@ TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
-# THEME = "simple"
+THEME = "theme"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
