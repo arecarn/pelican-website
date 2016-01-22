@@ -1,4 +1,4 @@
-Title: Directory Structure
+Title: File Organization
 Date: 2016-01-16 13:32
 Category: Organization
 
@@ -6,61 +6,79 @@ The Following is the Directory structure I use for organizing my life
 
 It's a work in progress and continues to be refined, but I'm happy with it for now
 
+
 ```
-inbox
+inbox/
 |
-+--unorganized-thing
-+--folder-of-stuff-to-sort
+|--unorganized-thing
+`--folder-of-stuff-to-sort/
    |
-   + thing1.ext
-   + thing2.ext
+   |--thing1.ext
+   `--thing2.ext
+```
 
-notes
+```
+projects/
 |
-+--inbox.md
-+--todo.txt
-+--done.txt
+|--project-1
+`--project-2
+```
 
-projects
+```
+media/
 |
-+--project-1
-+--project-2
-
-archive
-|
-+--YYYY
-   |
-   +--notes
-   +--projects
-
-media
-|
-+--books
+|--books/
 |  |
-|  +--fiction
+|  |--fiction/
 |  |  |
-|  |  +--author
+|  |  `--author/
 |  |     |
-|  |     +--book
+|  |     `--book-title/
+|  |        |
+|  |        |--book-title.pdf
+|  |        `--book-title.epub
 |  |
-|  +--non-fiction
+|  `--non-fiction/
 |      |
-|      +--category
+|      `--category/
 |          |
-|          +--book
-|          +--subcategory
+|          |--book
+|          `--subcategory/
 |             |
-|             +-- book
-+--pictures
+|             `--book-title/
+|                 |
+|                 |--book-title.pdf
+|                 `--book-title.epub
+`--pictures/
    |
-   +--YYYY
+   `--YYYY/
       |
-      +--YYYY-MM-DD_event-name-1
-      +--YYYY-MM-DD_YYYY-MM-DD_event-name-2
+      |--YYYY-MM-DD_event-name-1
+      `--YYYY-MM-DD_YYYY-MM-DD_event-name-2
+```
 
-tools
+```
+notes/
 |
-+--some-tool-1
-+--some-tool-2
-+--some_tool_2.sh
+|--inbox.md
+|--todo.txt
+`--done.txt
+```
+
+```
+tools/
+|
+|--some-tool-1
+|--some-tool-2
+`--some_tool_2.sh
+```
+
+
+```
+archive/
+|
+`--YYYY/
+   |
+   |--notes/
+   `--projects/
 ```
