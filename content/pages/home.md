@@ -1,4 +1,4 @@
-Title: Home
+Title:
 url:
 save_as: index.html
 
