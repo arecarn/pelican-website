@@ -1,3 +1,7 @@
 [submodule "output"]
 	path = output
 	url = https://github.com/arecar/arecarn.github.io
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins
+	branch = master
