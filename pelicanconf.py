@@ -41,6 +41,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['pelican_javascript']
+
 DEFAULT_PAGINATION = 1
 
 # Uncomment following line if you want document-relative URLs when developing
