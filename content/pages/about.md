@@ -1,15 +1,22 @@
 Title: About
 Status: published
 
-This is the website of Ryan Carney and some of the nerd junk that he is into.
+Hi I'm, Ryan Carney I'm into a bunch of stuff.
 
-## Interests
+#### Programming
+* Vim
+* Zsh
+* Python
+* C
 
-* Biking  
-* Financial Freedom  
-* Fitness  
-* Food  
-* Organization  
-* Productivity  
-* Programming  
-* Swimming  
+#### Fitness
+I was a swimmer for over 10 years, then dabbled in power lifting, Olympic
+lifting and strongman. Now I stick with mostly riding my bike around town and
+doing body weight exercises
+
+
+#### Other
+* Financial Independence
+* Food (eating and cooking in that order)
+* Organization
+* Productivity
