@@ -31,6 +31,10 @@ MENUITEMS = (
     ('About', '/pages/about.html'),
     )
 
+DEFAULT_METADATA = {
+        'status': 'draft',
+}
+
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
