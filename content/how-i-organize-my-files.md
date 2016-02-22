@@ -4,18 +4,24 @@ Category: Organization
 
 The Following is the Directory structure I use for organizing my life
 
-It's a work in progress and continues to be refined, but I'm happy with it for now
-
-
 ```
 inbox/
-
 notes/
+|
+|--inbox.md
+|--todo.txt
+`--done.txt
 
 projects/
 |
 |--project-1
 `--project-2
+
+notes/
+|
+|--inbox.md
+|--todo.txt
+`--done.txt
 
 archive/
 |
@@ -29,9 +35,9 @@ archive/
 
 
 ## inbox
-The inbox directory is pretty self explanatory, things land here when you
-aren't quite sure what to do yet, or a place that a new project might start
-taking form.
+The inbox directory is pretty self explanatory, things land here when you aren't
+quite sure what to do yet, or a place that a new project might start taking
+form.
 
 ## notes
 The notes directory notes are for thoughts, drafts, plans, and well notes. I
@@ -44,8 +50,6 @@ space. A projects name is not abbreviated, and if it's name is more than one
 word they are separated by dashes e.g. some-project-name, other-project, thing
 
 ## archive
-Every year gets a directory and after a year pases notes and projects
+Every year gets a directory and after a year passes notes and projects
 directories get moved into that years directory, and you create a new note and
 project directories
-
-
