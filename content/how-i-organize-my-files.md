@@ -1,8 +1,10 @@
 Title: Document And Project Organization
-Date: 2016-01-16 13:32
+Date: 2016-10-05
 Category: Organization
+Status: published
 
-The Following is the Directory structure I use for organizing my life
+The following is the directory structure I use for organizing my files for work
+and projects, and life.
 
 ```
 inbox/
@@ -14,23 +16,29 @@ notes/
 
 projects/
 |
-|--project-1
-`--project-2
+|--project_1
+`--project_2
 
 notes/
 |
+|
+|--done.txt
+|--home_project_1_note.md
+|--work_project_2_note.md
 |--inbox.md
 |--todo.txt
-`--done.txt
 
 archive/
 |
 `--YYYY/
    |
    |--notes/
+   |  |--home_project_3_note.md
+   |  `--work_project_4_note.md
+   |
    `--projects/
-      |--project-3
-      `--project-4
+      |--project_3
+      `--project_4
 ```
 
 
@@ -40,16 +48,19 @@ quite sure what to do yet, or a place that a new project might start taking
 form.
 
 ## notes
-The notes directory notes are for thoughts, drafts, plans, and well notes. I
-use plain text markdown files, since I appreciate the portability and
-additional structure
+The notes directory notes are for thoughts, drafts, plans, and well notes. For
+my notes I mostly use plain text markdown files. There are other markup
+languages that are better specified and more powerful, but I appreciate the
+ubiquity and simplicity of markdown.
 
 ## projects
-a project is anything that ends up needing a document or requires a working
-space. A projects name is not abbreviated, and if it's name is more than one
-word they are separated by dashes e.g. some-project-name, other-project, thing
+A project is anything that ends up needing a requires a working space. A
+projects name is not abbreviated, and if it's name is more than one word they
+are separated by underscores e.g. some_project_name, other_project, thing
 
 ## archive
-Every year gets a directory and after a year passes notes and projects
-directories get moved into that years directory, and you create a new note and
-project directories
+So thing don't get to cluttered, every year a new archive directory with the
+year as its name get gets created, with a projects and notes directory inside
+it. When a project is finished or becomes inactive it can be moved to the
+projects directory in the archive. For notes I usually wait till the end of the
+year and move all notes that I'm done with to the archive.
