@@ -1,7 +1,10 @@
 Title: Media Organization
-Date: 2016-01-31 20:50
+Date: 2016-10-05
 Category: Organization
+Status: published
 
+The following is the directory structure I use for organizing my media. I think
+the directory names and structure speaks for themselves.
 
 ```
 media/
@@ -12,26 +15,26 @@ media/
 |  |  |
 |  |  `--author/
 |  |     |
-|  |     `--book-title/
+|  |     `--book_title/
 |  |        |
-|  |        |--book-title.pdf
-|  |        `--book-title.epub
+|  |        |--book_title.pdf
+|  |        `--book_title.epub
 |  |
-|  `--non-fiction/
+|  `--non_fiction/
 |      |
 |      `--category/
 |          |
 |          |--book
 |          `--subcategory/
 |             |
-|             `--book-title/
+|             `--book_title/
 |                 |
-|                 |--book-title.pdf
-|                 `--book-title.epub
+|                 |--book_title.pdf
+|                 `--book_title.epub
 `--pictures/
    |
    `--YYYY/
       |
-      |--YYYY-MM-DD_event-name-1
-      `--YYYY-MM-DD_YYYY-MM-DD_event-name-2
+      |--YYYY-MM-DD_event_name_1
+      `--YYYY-MM-DD_YYYY-MM-DD_event_name_2
 ```
