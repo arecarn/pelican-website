@@ -5,8 +5,7 @@ Status: published
 I am a software craftsman who enjoys the creative puzzle that is creating
 software. I care deeply about producing high quality software that works, is
 readable, and maintainable. I strive to hone my skills and I am hungry to learn,
-experiment, and create. To see what I'm up to of what tools I use checkout my
-[GitHub](https://github.com/arecarn).
+experiment, and create. To see what I'm up to checkout my [GitHub](https://github.com/arecarn).
 
 
 #### Fitness
